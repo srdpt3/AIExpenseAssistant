@@ -19,6 +19,8 @@
 		11192D702C61C0D5001FDD1E /* ExpenseLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11192D6F2C61C0D5001FDD1E /* ExpenseLog.swift */; };
 		11192D722C61C0E9001FDD1E /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11192D712C61C0E9001FDD1E /* Sort.swift */; };
 		11192D742C61C104001FDD1E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11192D732C61C104001FDD1E /* Utils.swift */; };
+		11192D762C63012C001FDD1E /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11192D752C63012C001FDD1E /* DatabaseManager.swift */; };
+		11192D792C631220001FDD1E /* LogListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11192D782C631220001FDD1E /* LogListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		11192D6F2C61C0D5001FDD1E /* ExpenseLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseLog.swift; sourceTree = "<group>"; };
 		11192D712C61C0E9001FDD1E /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
 		11192D732C61C104001FDD1E /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		11192D752C63012C001FDD1E /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		11192D782C631220001FDD1E /* LogListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 		11192D512C603FF5001FDD1E /* AIExpenseAssistant */ = {
 			isa = PBXGroup;
 			children = (
+				11192D772C631200001FDD1E /* ViewModels */,
 				11192D732C61C104001FDD1E /* Utils.swift */,
 				11192D6C2C61C0AA001FDD1E /* Models */,
 				11192D692C604AFB001FDD1E /* Info.plist */,
@@ -80,6 +85,7 @@
 				11192D582C603FF6001FDD1E /* AIExpenseAssistant.entitlements */,
 				11192D592C603FF6001FDD1E /* Preview Content */,
 				11192D6A2C604EF3001FDD1E /* AppDelegate.swift */,
+				11192D752C63012C001FDD1E /* DatabaseManager.swift */,
 			);
 			path = AIExpenseAssistant;
 			sourceTree = "<group>";
@@ -107,6 +113,14 @@
 				11192D712C61C0E9001FDD1E /* Sort.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		11192D772C631200001FDD1E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				11192D782C631220001FDD1E /* LogListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,8 +201,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11192D762C63012C001FDD1E /* DatabaseManager.swift in Sources */,
 				11192D702C61C0D5001FDD1E /* ExpenseLog.swift in Sources */,
 				11192D6B2C604EF3001FDD1E /* AppDelegate.swift in Sources */,
+				11192D792C631220001FDD1E /* LogListViewModel.swift in Sources */,
 				11192D552C603FF5001FDD1E /* ContentView.swift in Sources */,
 				11192D742C61C104001FDD1E /* Utils.swift in Sources */,
 				11192D532C603FF5001FDD1E /* AIExpenseAssistantApp.swift in Sources */,
