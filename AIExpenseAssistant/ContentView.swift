@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var vm = LogListViewModel()
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         VStack {
             Image(systemName: "globe")

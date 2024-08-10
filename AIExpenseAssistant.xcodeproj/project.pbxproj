@@ -21,6 +21,15 @@
 		11192D742C61C104001FDD1E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11192D732C61C104001FDD1E /* Utils.swift */; };
 		11192D762C63012C001FDD1E /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11192D752C63012C001FDD1E /* DatabaseManager.swift */; };
 		11192D792C631220001FDD1E /* LogListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11192D782C631220001FDD1E /* LogListViewModel.swift */; };
+		11192D7B2C6312F8001FDD1E /* LogFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11192D7A2C6312F8001FDD1E /* LogFormViewModel.swift */; };
+		11192D7E2C631395001FDD1E /* FilterCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11192D7D2C631395001FDD1E /* FilterCategoryView.swift */; };
+		11192D802C645608001FDD1E /* SelectSortOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11192D7F2C645608001FDD1E /* SelectSortOrderView.swift */; };
+		11192D822C658F97001FDD1E /* CategoryImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11192D812C658F97001FDD1E /* CategoryImageView.swift */; };
+		11192D842C659300001FDD1E /* LogItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11192D832C659300001FDD1E /* LogItemView.swift */; };
+		11192D862C659908001FDD1E /* LogListview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11192D852C659908001FDD1E /* LogListview.swift */; };
+		11192D882C65A0E7001FDD1E /* LogFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11192D872C65A0E7001FDD1E /* LogFormView.swift */; };
+		11192D8A2C66FB65001FDD1E /* LogListContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11192D892C66FB65001FDD1E /* LogListContainerView.swift */; };
+		11192D8C2C670207001FDD1E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 11192D8B2C670207001FDD1E /* FirebaseAuth */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +48,14 @@
 		11192D732C61C104001FDD1E /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		11192D752C63012C001FDD1E /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		11192D782C631220001FDD1E /* LogListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListViewModel.swift; sourceTree = "<group>"; };
+		11192D7A2C6312F8001FDD1E /* LogFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogFormViewModel.swift; sourceTree = "<group>"; };
+		11192D7D2C631395001FDD1E /* FilterCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCategoryView.swift; sourceTree = "<group>"; };
+		11192D7F2C645608001FDD1E /* SelectSortOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSortOrderView.swift; sourceTree = "<group>"; };
+		11192D812C658F97001FDD1E /* CategoryImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryImageView.swift; sourceTree = "<group>"; };
+		11192D832C659300001FDD1E /* LogItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogItemView.swift; sourceTree = "<group>"; };
+		11192D852C659908001FDD1E /* LogListview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListview.swift; sourceTree = "<group>"; };
+		11192D872C65A0E7001FDD1E /* LogFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogFormView.swift; sourceTree = "<group>"; };
+		11192D892C66FB65001FDD1E /* LogListContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +64,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11192D662C604A73001FDD1E /* FirebaseFirestore in Frameworks */,
+				11192D8C2C670207001FDD1E /* FirebaseAuth in Frameworks */,
 				11192D682C604A73001FDD1E /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,11 +92,12 @@
 		11192D512C603FF5001FDD1E /* AIExpenseAssistant */ = {
 			isa = PBXGroup;
 			children = (
+				11192D612C6042A5001FDD1E /* GoogleService-Info.plist */,
+				11192D7C2C631378001FDD1E /* Views */,
 				11192D772C631200001FDD1E /* ViewModels */,
 				11192D732C61C104001FDD1E /* Utils.swift */,
 				11192D6C2C61C0AA001FDD1E /* Models */,
 				11192D692C604AFB001FDD1E /* Info.plist */,
-				11192D612C6042A5001FDD1E /* GoogleService-Info.plist */,
 				11192D522C603FF5001FDD1E /* AIExpenseAssistantApp.swift */,
 				11192D542C603FF5001FDD1E /* ContentView.swift */,
 				11192D562C603FF6001FDD1E /* Assets.xcassets */,
@@ -119,8 +138,23 @@
 			isa = PBXGroup;
 			children = (
 				11192D782C631220001FDD1E /* LogListViewModel.swift */,
+				11192D7A2C6312F8001FDD1E /* LogFormViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		11192D7C2C631378001FDD1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11192D7D2C631395001FDD1E /* FilterCategoryView.swift */,
+				11192D7F2C645608001FDD1E /* SelectSortOrderView.swift */,
+				11192D812C658F97001FDD1E /* CategoryImageView.swift */,
+				11192D832C659300001FDD1E /* LogItemView.swift */,
+				11192D852C659908001FDD1E /* LogListview.swift */,
+				11192D872C65A0E7001FDD1E /* LogFormView.swift */,
+				11192D892C66FB65001FDD1E /* LogListContainerView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +176,7 @@
 			packageProductDependencies = (
 				11192D652C604A73001FDD1E /* FirebaseFirestore */,
 				11192D672C604A73001FDD1E /* FirebaseStorage */,
+				11192D8B2C670207001FDD1E /* FirebaseAuth */,
 			);
 			productName = AIExpenseAssistant;
 			productReference = 11192D4F2C603FF5001FDD1E /* AIExpenseAssistant.app */;
@@ -203,12 +238,20 @@
 			files = (
 				11192D762C63012C001FDD1E /* DatabaseManager.swift in Sources */,
 				11192D702C61C0D5001FDD1E /* ExpenseLog.swift in Sources */,
+				11192D842C659300001FDD1E /* LogItemView.swift in Sources */,
 				11192D6B2C604EF3001FDD1E /* AppDelegate.swift in Sources */,
+				11192D802C645608001FDD1E /* SelectSortOrderView.swift in Sources */,
 				11192D792C631220001FDD1E /* LogListViewModel.swift in Sources */,
+				11192D7E2C631395001FDD1E /* FilterCategoryView.swift in Sources */,
+				11192D8A2C66FB65001FDD1E /* LogListContainerView.swift in Sources */,
 				11192D552C603FF5001FDD1E /* ContentView.swift in Sources */,
+				11192D7B2C6312F8001FDD1E /* LogFormViewModel.swift in Sources */,
+				11192D822C658F97001FDD1E /* CategoryImageView.swift in Sources */,
 				11192D742C61C104001FDD1E /* Utils.swift in Sources */,
 				11192D532C603FF5001FDD1E /* AIExpenseAssistantApp.swift in Sources */,
 				11192D6E2C61C0B5001FDD1E /* Category.swift in Sources */,
+				11192D882C65A0E7001FDD1E /* LogFormView.swift in Sources */,
+				11192D862C659908001FDD1E /* LogListview.swift in Sources */,
 				11192D722C61C0E9001FDD1E /* Sort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,6 +495,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 11192D632C604A08001FDD1E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
+		};
+		11192D8B2C670207001FDD1E /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11192D632C604A08001FDD1E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

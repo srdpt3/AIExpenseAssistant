@@ -23,6 +23,7 @@ enum Category: String, Identifiable, CaseIterable {
     case gifts = "Gifts"
     case health = "Health"
     case insurance = "Insurance"
+    case investment = "Investment"
     case interest = "Interest"
     case learning = "Learning"
     case licensingFees = "Licensing fees"
@@ -58,6 +59,7 @@ enum Category: String, Identifiable, CaseIterable {
         case .learning: return "book"
         case .entertainment: return "film"
         case .interest: return "percent"
+        case .investment: return "bold"
         case .health: return "heart"
         case .membershipFees: return "person.2"
         case .consultantsAndProfessionalServices: return "briefcase.fill"
@@ -70,6 +72,7 @@ enum Category: String, Identifiable, CaseIterable {
     
     var color: Color {
         switch self {
+        case .investment: return Color(red: 1.0, green: 0.6, blue: 0.0)
         case .insurance: return Color(red: 0.086, green: 0.525, blue: 0.820)
         case .utilities: return Color(red: 0.369, green: 0.769, blue: 0.439)
         case .marketing: return Color(red: 0.843, green: 0.000, blue: 0.239)

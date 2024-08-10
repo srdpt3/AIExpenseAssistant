@@ -8,7 +8,7 @@
 import Firebase
 import FirebaseFirestore
 import Foundation
-
+import FirebaseAuth
 #if os(macOS)
 import Cocoa
 
@@ -40,11 +40,14 @@ fileprivate func isPreviewRuntime() -> Bool {
 
 fileprivate func setupFirebase() {
     FirebaseApp.configure()
+    
     if isPreviewRuntime() {
         let settings = Firestore.firestore().settings
         settings.host = "localhost:8080"
         settings.isPersistenceEnabled = false
         settings.isSSLEnabled = false
+        Auth.auth().useEmulator(withHost:"127.0.0.1", port:4000)
+
         Firestore.firestore().settings = settings
     }
 }
