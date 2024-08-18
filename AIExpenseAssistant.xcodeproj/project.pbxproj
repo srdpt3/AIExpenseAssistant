@@ -30,6 +30,15 @@
 		11192D882C65A0E7001FDD1E /* LogFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11192D872C65A0E7001FDD1E /* LogFormView.swift */; };
 		11192D8A2C66FB65001FDD1E /* LogListContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11192D892C66FB65001FDD1E /* LogListContainerView.swift */; };
 		11192D8C2C670207001FDD1E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 11192D8B2C670207001FDD1E /* FirebaseAuth */; };
+		1197BB0A2C6C42A5008FC7F3 /* ChatGPTUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1197BB092C6C42A5008FC7F3 /* ChatGPTUI */; };
+		1197BB0E2C6C4958008FC7F3 /* AlAssitantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1197BB0D2C6C4958008FC7F3 /* AlAssitantView.swift */; };
+		1197BB112C6DA3BC008FC7F3 /* FunctionTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1197BB102C6DA3BC008FC7F3 /* FunctionTools.swift */; };
+		1197BB142C6EF056008FC7F3 /* AIAssistantTextChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1197BB132C6EF056008FC7F3 /* AIAssistantTextChatViewModel.swift */; };
+		1197BB162C6EF06F008FC7F3 /* AIAssistantResponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1197BB152C6EF06F008FC7F3 /* AIAssistantResponseView.swift */; };
+		1197BB182C6EF0C8008FC7F3 /* FunctionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1197BB172C6EF0C8008FC7F3 /* FunctionResponse.swift */; };
+		1197BB1A2C6EF0F1008FC7F3 /* FunctionArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1197BB192C6EF0F1008FC7F3 /* FunctionArguments.swift */; };
+		1197BB1C2C6EF120008FC7F3 /* FunctionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1197BB1B2C6EF120008FC7F3 /* FunctionsManager.swift */; };
+		1197BB1E2C6EF164008FC7F3 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1197BB1D2C6EF164008FC7F3 /* Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +65,14 @@
 		11192D852C659908001FDD1E /* LogListview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListview.swift; sourceTree = "<group>"; };
 		11192D872C65A0E7001FDD1E /* LogFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogFormView.swift; sourceTree = "<group>"; };
 		11192D892C66FB65001FDD1E /* LogListContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListContainerView.swift; sourceTree = "<group>"; };
+		1197BB0D2C6C4958008FC7F3 /* AlAssitantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlAssitantView.swift; sourceTree = "<group>"; };
+		1197BB102C6DA3BC008FC7F3 /* FunctionTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionTools.swift; sourceTree = "<group>"; };
+		1197BB132C6EF056008FC7F3 /* AIAssistantTextChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIAssistantTextChatViewModel.swift; sourceTree = "<group>"; };
+		1197BB152C6EF06F008FC7F3 /* AIAssistantResponseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIAssistantResponseView.swift; sourceTree = "<group>"; };
+		1197BB172C6EF0C8008FC7F3 /* FunctionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionResponse.swift; sourceTree = "<group>"; };
+		1197BB192C6EF0F1008FC7F3 /* FunctionArguments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionArguments.swift; sourceTree = "<group>"; };
+		1197BB1B2C6EF120008FC7F3 /* FunctionsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsManager.swift; sourceTree = "<group>"; };
+		1197BB1D2C6EF164008FC7F3 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +82,7 @@
 			files = (
 				11192D662C604A73001FDD1E /* FirebaseFirestore in Frameworks */,
 				11192D8C2C670207001FDD1E /* FirebaseAuth in Frameworks */,
+				1197BB0A2C6C42A5008FC7F3 /* ChatGPTUI in Frameworks */,
 				11192D682C604A73001FDD1E /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,6 +110,7 @@
 		11192D512C603FF5001FDD1E /* AIExpenseAssistant */ = {
 			isa = PBXGroup;
 			children = (
+				1197BB0B2C6C493D008FC7F3 /* AIAssistant */,
 				11192D612C6042A5001FDD1E /* GoogleService-Info.plist */,
 				11192D7C2C631378001FDD1E /* Views */,
 				11192D772C631200001FDD1E /* ViewModels */,
@@ -105,6 +124,7 @@
 				11192D592C603FF6001FDD1E /* Preview Content */,
 				11192D6A2C604EF3001FDD1E /* AppDelegate.swift */,
 				11192D752C63012C001FDD1E /* DatabaseManager.swift */,
+				1197BB1D2C6EF164008FC7F3 /* Date.swift */,
 			);
 			path = AIExpenseAssistant;
 			sourceTree = "<group>";
@@ -157,6 +177,44 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		1197BB0B2C6C493D008FC7F3 /* AIAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				1197BB122C6EDC0D008FC7F3 /* ViewModels */,
+				1197BB0F2C6DA3A7008FC7F3 /* Models */,
+				1197BB0C2C6C4949008FC7F3 /* Views */,
+				1197BB1B2C6EF120008FC7F3 /* FunctionsManager.swift */,
+			);
+			path = AIAssistant;
+			sourceTree = "<group>";
+		};
+		1197BB0C2C6C4949008FC7F3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1197BB0D2C6C4958008FC7F3 /* AlAssitantView.swift */,
+				1197BB152C6EF06F008FC7F3 /* AIAssistantResponseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1197BB0F2C6DA3A7008FC7F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1197BB102C6DA3BC008FC7F3 /* FunctionTools.swift */,
+				1197BB172C6EF0C8008FC7F3 /* FunctionResponse.swift */,
+				1197BB192C6EF0F1008FC7F3 /* FunctionArguments.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1197BB122C6EDC0D008FC7F3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1197BB132C6EF056008FC7F3 /* AIAssistantTextChatViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -177,6 +235,7 @@
 				11192D652C604A73001FDD1E /* FirebaseFirestore */,
 				11192D672C604A73001FDD1E /* FirebaseStorage */,
 				11192D8B2C670207001FDD1E /* FirebaseAuth */,
+				1197BB092C6C42A5008FC7F3 /* ChatGPTUI */,
 			);
 			productName = AIExpenseAssistant;
 			productReference = 11192D4F2C603FF5001FDD1E /* AIExpenseAssistant.app */;
@@ -208,6 +267,7 @@
 			mainGroup = 11192D462C603FF5001FDD1E;
 			packageReferences = (
 				11192D632C604A08001FDD1E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				1197BB082C6C42A5008FC7F3 /* XCRemoteSwiftPackageReference "ChatGPTUI" */,
 			);
 			productRefGroup = 11192D502C603FF5001FDD1E /* Products */;
 			projectDirPath = "";
@@ -238,19 +298,27 @@
 			files = (
 				11192D762C63012C001FDD1E /* DatabaseManager.swift in Sources */,
 				11192D702C61C0D5001FDD1E /* ExpenseLog.swift in Sources */,
+				1197BB182C6EF0C8008FC7F3 /* FunctionResponse.swift in Sources */,
+				1197BB112C6DA3BC008FC7F3 /* FunctionTools.swift in Sources */,
 				11192D842C659300001FDD1E /* LogItemView.swift in Sources */,
 				11192D6B2C604EF3001FDD1E /* AppDelegate.swift in Sources */,
+				1197BB1E2C6EF164008FC7F3 /* Date.swift in Sources */,
 				11192D802C645608001FDD1E /* SelectSortOrderView.swift in Sources */,
+				1197BB142C6EF056008FC7F3 /* AIAssistantTextChatViewModel.swift in Sources */,
+				1197BB162C6EF06F008FC7F3 /* AIAssistantResponseView.swift in Sources */,
 				11192D792C631220001FDD1E /* LogListViewModel.swift in Sources */,
 				11192D7E2C631395001FDD1E /* FilterCategoryView.swift in Sources */,
 				11192D8A2C66FB65001FDD1E /* LogListContainerView.swift in Sources */,
 				11192D552C603FF5001FDD1E /* ContentView.swift in Sources */,
 				11192D7B2C6312F8001FDD1E /* LogFormViewModel.swift in Sources */,
+				1197BB0E2C6C4958008FC7F3 /* AlAssitantView.swift in Sources */,
+				1197BB1A2C6EF0F1008FC7F3 /* FunctionArguments.swift in Sources */,
 				11192D822C658F97001FDD1E /* CategoryImageView.swift in Sources */,
 				11192D742C61C104001FDD1E /* Utils.swift in Sources */,
 				11192D532C603FF5001FDD1E /* AIExpenseAssistantApp.swift in Sources */,
 				11192D6E2C61C0B5001FDD1E /* Category.swift in Sources */,
 				11192D882C65A0E7001FDD1E /* LogFormView.swift in Sources */,
+				1197BB1C2C6EF120008FC7F3 /* FunctionsManager.swift in Sources */,
 				11192D862C659908001FDD1E /* LogListview.swift in Sources */,
 				11192D722C61C0E9001FDD1E /* Sort.swift in Sources */,
 			);
@@ -387,6 +455,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AIExpenseAssistant/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Talk with AI";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -405,10 +474,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.srdpt3.AIExpenseAssistant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Debug;
 		};
@@ -426,6 +496,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AIExpenseAssistant/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Talk with AI";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -444,10 +515,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.srdpt3.AIExpenseAssistant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Release;
 		};
@@ -483,6 +555,14 @@
 				minimumVersion = 11.0.0;
 			};
 		};
+		1197BB082C6C42A5008FC7F3 /* XCRemoteSwiftPackageReference "ChatGPTUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/ChatGPTUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -500,6 +580,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 11192D632C604A08001FDD1E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
+		};
+		1197BB092C6C42A5008FC7F3 /* ChatGPTUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1197BB082C6C42A5008FC7F3 /* XCRemoteSwiftPackageReference "ChatGPTUI" */;
+			productName = ChatGPTUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

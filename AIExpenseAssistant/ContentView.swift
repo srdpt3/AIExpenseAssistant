@@ -27,15 +27,14 @@ struct ContentView: View {
     var tabView: some View {
           TabView {
               NavigationStack {
-                  LogListContainerView(vm: $vm)
+                   LogListContainerView(vm: $vm)
               }
               .tabItem {
                   Label("지출", systemImage: "tray")
               }.tag(0)
               
               NavigationStack {
-                  Text("AI Assistant")
-//                  AIAssistantView()
+                  AlAssitantView()
               }
               .tabItem {
                   Label("AI 비서", systemImage: "waveform")
@@ -59,7 +58,7 @@ struct ContentView: View {
                       Label("Expenses", systemImage: "tray")
                   }
                   
-                  NavigationLink(destination: Text("AI 비서")) {
+                  NavigationLink(destination: AlAssitantView()) {
                       Label("AI Assistant", systemImage: "waveform")
                   }
                   
@@ -71,7 +70,7 @@ struct ContentView: View {
           } detail: {
               LogListContainerView(vm: $vm)
           }
-          .navigationTitle("XCA AI Expense Tracker")
+          .navigationTitle("AI 가계부 비서")
       }
 }
 

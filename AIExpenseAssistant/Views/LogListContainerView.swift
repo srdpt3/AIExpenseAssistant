@@ -44,7 +44,7 @@ struct LogListContainerView: View {
             LogFormView(vm: .init())
         }
         #if !os(macOS)
-        .navigationBarTitle("AI Expense Assistant", displayMode: .inline)
+        .navigationBarTitle("AI 가계부 비서", displayMode: .inline)
         #endif
     }
 }
