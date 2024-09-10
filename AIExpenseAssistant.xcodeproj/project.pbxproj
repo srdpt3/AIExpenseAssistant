@@ -39,6 +39,18 @@
 		1197BB1A2C6EF0F1008FC7F3 /* FunctionArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1197BB192C6EF0F1008FC7F3 /* FunctionArguments.swift */; };
 		1197BB1C2C6EF120008FC7F3 /* FunctionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1197BB1B2C6EF120008FC7F3 /* FunctionsManager.swift */; };
 		1197BB1E2C6EF164008FC7F3 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1197BB1D2C6EF164008FC7F3 /* Date.swift */; };
+		1197BB202C72C612008FC7F3 /* AlAssistantVoiceChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1197BB1F2C72C612008FC7F3 /* AlAssistantVoiceChatViewModel.swift */; };
+		1197BB242C855BC3008FC7F3 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1197BB232C855BC3008FC7F3 /* ChartView.swift */; };
+		1197BB262C864D60008FC7F3 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1197BB252C864D60008FC7F3 /* SplashView.swift */; };
+		11E09F272C8A9B4800DA5B23 /* BlurryBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E09F262C8A9B4800DA5B23 /* BlurryBackgroundView.swift */; };
+		11E09F2A2C8D0F0800DA5B23 /* AIReceiptScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 11E09F292C8D0F0800DA5B23 /* AIReceiptScanner */; };
+		11E09F2D2C8D0F7000DA5B23 /* ExpenseReceiptScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E09F2C2C8D0F7000DA5B23 /* ExpenseReceiptScannerView.swift */; };
+		11E09F2F2C8D128D00DA5B23 /* AddReceiptToExpenseConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E09F2E2C8D128D00DA5B23 /* AddReceiptToExpenseConfirmationView.swift */; };
+		11E09F312C8D12B800DA5B23 /* AddReceiptToExpenseConfirmationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E09F302C8D12B800DA5B23 /* AddReceiptToExpenseConfirmationViewModel.swift */; };
+		11E09F332C8D12CC00DA5B23 /* Receipt+ExpenseLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E09F322C8D12CC00DA5B23 /* Receipt+ExpenseLog.swift */; };
+		11E09F362C8E736000DA5B23 /* TabPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E09F342C8E736000DA5B23 /* TabPosition.swift */; };
+		11E09F372C8E736000DA5B23 /* TabShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E09F352C8E736000DA5B23 /* TabShape.swift */; };
+		11E09F392C8E737A00DA5B23 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E09F382C8E737A00DA5B23 /* Tab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +85,17 @@
 		1197BB192C6EF0F1008FC7F3 /* FunctionArguments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionArguments.swift; sourceTree = "<group>"; };
 		1197BB1B2C6EF120008FC7F3 /* FunctionsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsManager.swift; sourceTree = "<group>"; };
 		1197BB1D2C6EF164008FC7F3 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		1197BB1F2C72C612008FC7F3 /* AlAssistantVoiceChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlAssistantVoiceChatViewModel.swift; sourceTree = "<group>"; };
+		1197BB232C855BC3008FC7F3 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		1197BB252C864D60008FC7F3 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		11E09F262C8A9B4800DA5B23 /* BlurryBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurryBackgroundView.swift; sourceTree = "<group>"; };
+		11E09F2C2C8D0F7000DA5B23 /* ExpenseReceiptScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseReceiptScannerView.swift; sourceTree = "<group>"; };
+		11E09F2E2C8D128D00DA5B23 /* AddReceiptToExpenseConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReceiptToExpenseConfirmationView.swift; sourceTree = "<group>"; };
+		11E09F302C8D12B800DA5B23 /* AddReceiptToExpenseConfirmationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReceiptToExpenseConfirmationViewModel.swift; sourceTree = "<group>"; };
+		11E09F322C8D12CC00DA5B23 /* Receipt+ExpenseLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Receipt+ExpenseLog.swift"; sourceTree = "<group>"; };
+		11E09F342C8E736000DA5B23 /* TabPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabPosition.swift; sourceTree = "<group>"; };
+		11E09F352C8E736000DA5B23 /* TabShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabShape.swift; sourceTree = "<group>"; };
+		11E09F382C8E737A00DA5B23 /* Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +105,7 @@
 			files = (
 				11192D662C604A73001FDD1E /* FirebaseFirestore in Frameworks */,
 				11192D8C2C670207001FDD1E /* FirebaseAuth in Frameworks */,
+				11E09F2A2C8D0F0800DA5B23 /* AIReceiptScanner in Frameworks */,
 				1197BB0A2C6C42A5008FC7F3 /* ChatGPTUI in Frameworks */,
 				11192D682C604A73001FDD1E /* FirebaseStorage in Frameworks */,
 			);
@@ -110,6 +134,7 @@
 		11192D512C603FF5001FDD1E /* AIExpenseAssistant */ = {
 			isa = PBXGroup;
 			children = (
+				11E09F2B2C8D0F4F00DA5B23 /* ReceiptScanner */,
 				1197BB0B2C6C493D008FC7F3 /* AIAssistant */,
 				11192D612C6042A5001FDD1E /* GoogleService-Info.plist */,
 				11192D7C2C631378001FDD1E /* Views */,
@@ -166,6 +191,8 @@
 		11192D7C2C631378001FDD1E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				11E09F342C8E736000DA5B23 /* TabPosition.swift */,
+				11E09F352C8E736000DA5B23 /* TabShape.swift */,
 				11192D7D2C631395001FDD1E /* FilterCategoryView.swift */,
 				11192D7F2C645608001FDD1E /* SelectSortOrderView.swift */,
 				11192D812C658F97001FDD1E /* CategoryImageView.swift */,
@@ -173,6 +200,9 @@
 				11192D852C659908001FDD1E /* LogListview.swift */,
 				11192D872C65A0E7001FDD1E /* LogFormView.swift */,
 				11192D892C66FB65001FDD1E /* LogListContainerView.swift */,
+				1197BB232C855BC3008FC7F3 /* ChartView.swift */,
+				1197BB252C864D60008FC7F3 /* SplashView.swift */,
+				11E09F262C8A9B4800DA5B23 /* BlurryBackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +230,7 @@
 		1197BB0F2C6DA3A7008FC7F3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				11E09F382C8E737A00DA5B23 /* Tab.swift */,
 				1197BB102C6DA3BC008FC7F3 /* FunctionTools.swift */,
 				1197BB172C6EF0C8008FC7F3 /* FunctionResponse.swift */,
 				1197BB192C6EF0F1008FC7F3 /* FunctionArguments.swift */,
@@ -211,8 +242,20 @@
 			isa = PBXGroup;
 			children = (
 				1197BB132C6EF056008FC7F3 /* AIAssistantTextChatViewModel.swift */,
+				1197BB1F2C72C612008FC7F3 /* AlAssistantVoiceChatViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		11E09F2B2C8D0F4F00DA5B23 /* ReceiptScanner */ = {
+			isa = PBXGroup;
+			children = (
+				11E09F2C2C8D0F7000DA5B23 /* ExpenseReceiptScannerView.swift */,
+				11E09F2E2C8D128D00DA5B23 /* AddReceiptToExpenseConfirmationView.swift */,
+				11E09F302C8D12B800DA5B23 /* AddReceiptToExpenseConfirmationViewModel.swift */,
+				11E09F322C8D12CC00DA5B23 /* Receipt+ExpenseLog.swift */,
+			);
+			path = ReceiptScanner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +279,7 @@
 				11192D672C604A73001FDD1E /* FirebaseStorage */,
 				11192D8B2C670207001FDD1E /* FirebaseAuth */,
 				1197BB092C6C42A5008FC7F3 /* ChatGPTUI */,
+				11E09F292C8D0F0800DA5B23 /* AIReceiptScanner */,
 			);
 			productName = AIExpenseAssistant;
 			productReference = 11192D4F2C603FF5001FDD1E /* AIExpenseAssistant.app */;
@@ -268,6 +312,7 @@
 			packageReferences = (
 				11192D632C604A08001FDD1E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				1197BB082C6C42A5008FC7F3 /* XCRemoteSwiftPackageReference "ChatGPTUI" */,
+				11E09F282C8D0F0800DA5B23 /* XCRemoteSwiftPackageReference "AIReceiptScanner" */,
 			);
 			productRefGroup = 11192D502C603FF5001FDD1E /* Products */;
 			projectDirPath = "";
@@ -299,6 +344,7 @@
 				11192D762C63012C001FDD1E /* DatabaseManager.swift in Sources */,
 				11192D702C61C0D5001FDD1E /* ExpenseLog.swift in Sources */,
 				1197BB182C6EF0C8008FC7F3 /* FunctionResponse.swift in Sources */,
+				11E09F2D2C8D0F7000DA5B23 /* ExpenseReceiptScannerView.swift in Sources */,
 				1197BB112C6DA3BC008FC7F3 /* FunctionTools.swift in Sources */,
 				11192D842C659300001FDD1E /* LogItemView.swift in Sources */,
 				11192D6B2C604EF3001FDD1E /* AppDelegate.swift in Sources */,
@@ -307,20 +353,30 @@
 				1197BB142C6EF056008FC7F3 /* AIAssistantTextChatViewModel.swift in Sources */,
 				1197BB162C6EF06F008FC7F3 /* AIAssistantResponseView.swift in Sources */,
 				11192D792C631220001FDD1E /* LogListViewModel.swift in Sources */,
+				11E09F362C8E736000DA5B23 /* TabPosition.swift in Sources */,
 				11192D7E2C631395001FDD1E /* FilterCategoryView.swift in Sources */,
 				11192D8A2C66FB65001FDD1E /* LogListContainerView.swift in Sources */,
+				11E09F392C8E737A00DA5B23 /* Tab.swift in Sources */,
+				11E09F312C8D12B800DA5B23 /* AddReceiptToExpenseConfirmationViewModel.swift in Sources */,
+				1197BB262C864D60008FC7F3 /* SplashView.swift in Sources */,
 				11192D552C603FF5001FDD1E /* ContentView.swift in Sources */,
 				11192D7B2C6312F8001FDD1E /* LogFormViewModel.swift in Sources */,
 				1197BB0E2C6C4958008FC7F3 /* AlAssitantView.swift in Sources */,
 				1197BB1A2C6EF0F1008FC7F3 /* FunctionArguments.swift in Sources */,
+				1197BB202C72C612008FC7F3 /* AlAssistantVoiceChatViewModel.swift in Sources */,
 				11192D822C658F97001FDD1E /* CategoryImageView.swift in Sources */,
 				11192D742C61C104001FDD1E /* Utils.swift in Sources */,
+				11E09F332C8D12CC00DA5B23 /* Receipt+ExpenseLog.swift in Sources */,
 				11192D532C603FF5001FDD1E /* AIExpenseAssistantApp.swift in Sources */,
 				11192D6E2C61C0B5001FDD1E /* Category.swift in Sources */,
 				11192D882C65A0E7001FDD1E /* LogFormView.swift in Sources */,
+				11E09F2F2C8D128D00DA5B23 /* AddReceiptToExpenseConfirmationView.swift in Sources */,
+				1197BB242C855BC3008FC7F3 /* ChartView.swift in Sources */,
+				11E09F272C8A9B4800DA5B23 /* BlurryBackgroundView.swift in Sources */,
 				1197BB1C2C6EF120008FC7F3 /* FunctionsManager.swift in Sources */,
 				11192D862C659908001FDD1E /* LogListview.swift in Sources */,
 				11192D722C61C0E9001FDD1E /* Sort.swift in Sources */,
+				11E09F372C8E736000DA5B23 /* TabShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,7 +511,11 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AIExpenseAssistant/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = YunJiMi;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "take receipt picture";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Talk with AI";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "get receipt picture";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -496,7 +556,11 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AIExpenseAssistant/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = YunJiMi;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "take receipt picture";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Talk with AI";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "get receipt picture";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -563,6 +627,14 @@
 				minimumVersion = 0.3.1;
 			};
 		};
+		11E09F282C8D0F0800DA5B23 /* XCRemoteSwiftPackageReference "AIReceiptScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/AIReceiptScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -585,6 +657,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1197BB082C6C42A5008FC7F3 /* XCRemoteSwiftPackageReference "ChatGPTUI" */;
 			productName = ChatGPTUI;
+		};
+		11E09F292C8D0F0800DA5B23 /* AIReceiptScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11E09F282C8D0F0800DA5B23 /* XCRemoteSwiftPackageReference "AIReceiptScanner" */;
+			productName = AIReceiptScanner;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

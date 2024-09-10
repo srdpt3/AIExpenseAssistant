@@ -39,8 +39,8 @@ struct VisualizeExpenseArgs: Codable {
     
     let chartType: String
     
-//    var chartTypeEnum: ChartType {
-//        ChartType(rawValue: chartType) ?? .pie
-//    }
+    var chartTypeEnum: ChartType {
+        ChartType(rawValue: chartType) ?? .pie
+    }
     
 }

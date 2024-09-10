@@ -27,9 +27,9 @@ class AIAssistantTextChatViewModel: TextChatViewModel<AIAssistantResponseView> {
             let text: String
             if isConfirmed {
                 try? self.db.add(log: props.log)
-                text = "쌉가능 ..지출 목록에 등록했습니다"
+                text = "지출 목록에 등록했습니다"
             } else {
-                text = "등록을 하지 않겠습니다sr"
+                text = "등록을 하지 않겠습니다"
             }
             
             let response = AIAssistantResponse(text: text, type: .addExpenseLog(.init(log: props.log, messageID: id, userConfirmation: isConfirmed ? .confirmed : .cancelled, confirmationCallback: props.confirmationCallback)))

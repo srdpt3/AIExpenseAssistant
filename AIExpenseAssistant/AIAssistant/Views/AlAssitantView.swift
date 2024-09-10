@@ -19,9 +19,12 @@ enum ChatType: String, Identifiable, CaseIterable {
 
 struct AlAssitantView: View {
     @State var textChatVM = AIAssistantTextChatViewModel(apiKey: apiKey)
+    @State var voiceChatVM = AIAssistantVoiceChatViewModel(apiKey: apiKey)
+
     @State var chatType  = ChatType.text
     
     var body: some View {
+
         VStack(spacing: 0) {
             Picker(selection: $chatType, label: Text("Chat Type").font(.system(size: 12, weight: .bold))) {
                 ForEach(ChatType.allCases) { type in
@@ -41,9 +44,9 @@ struct AlAssitantView: View {
                 switch chatType {
                 case .text:
                     TextChatView(customContentVM: textChatVM)
-//                    TextChatView(senderImage: _senderImage, botImage: _botImage, apiKey: apiKey)
+                    //                    TextChatView(senderImage: _senderImage, botImage: _botImage, apiKey: apiKey)
                 case .voice:
-                    VoiceChatView(apiKey: apiKey)
+                    VoiceChatView(customContentVM: voiceChatVM)
                 }
             }.frame(maxWidth: 1024, alignment: .center)
         }

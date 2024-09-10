@@ -52,14 +52,14 @@ let categoryProp = (key: "category",
 let startDateProp = (key: "startDate",
                      value: [
                         "type": "string",
-                        "description": "start date. always use this format as the response yyyy-MM-dd. If no year is provided, just use current year"
+                        "description": "start date. always use this format as the response yyyy-MM-dd. If no year is provided, just use current year. no need to confirm with user"
                      ])
 
 
 let endDateProp = (key: "endDate",
                    value: [
                     "type": "string",
-                    "description": "end date. always use this format as the response yyyy-MM-dd. if no year is provided just use current year"
+                    "description": "end date. always use this format as the response yyyy-MM-dd. if no year is provided just use current year. no need to confirm with user"
                    ])
                    
  let sortOrderProp = (key: "sortOrder",
@@ -80,7 +80,7 @@ let chartTypeProp = (key: "chartType",
                      value: [
                         "type": "string",
                         "enum": ["pie", "bar"],
-                        "description": "the type of chart to be shown. if not provided, use pie as default value."
+                        "description": "the type of chart to be shown. please show all x-axis and y-axis. if not provided, use pie as default value.no need to confirm with user"
                      ])
                      
 

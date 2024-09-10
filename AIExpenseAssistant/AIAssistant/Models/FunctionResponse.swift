@@ -29,6 +29,6 @@ struct AIAssistantResponse {
 enum AIAssistantResponseFunctionType {
     case addExpenseLog(AddExpenseLogViewProperties)
     case listExpenses([ExpenseLog])
-//    case visualizeExpenses(ChartType, [Option])
+    case visualizeExpenses(ChartType, [Option])
     case contentText
 }
